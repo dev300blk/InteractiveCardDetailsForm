@@ -1,52 +1,70 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-main{
+main {
+    max-width: 400px;
+    max-height: fit-content;
     width: 100vh;
     height: 100vh;
     display: grid;
-    grid-template-rows: 35%  65%;
+    grid-template-rows: 35% 65%;
     grid: none;
-   
+
 }
-header{
-    background-image: url('images/bg-mob.png') ;
+
+header {
+    background-image: url('images/bg-mob.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100%;
     width: 100%;
 }
 
-form{
+
+form {
+    align-self: center;
     height: 100%;
-    width: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-top: 6rem;
+
+
+
+}
+
+ul {
     display: flex;
     flex-direction: column;
-    
+    /* justify-content: space-around; */
+    align-content: center;
+    height: 80%;
+    width: 95%;
+    gap: 2rem;
+
+
+
+
 }
 
-ul{
-    display:grid;
-    height: 90%;
-    width: 90%;
-   grid-template-rows: repeat(4, 1fr);
-   grid-auto-rows: auto;
-   gap: 2rem;
-   margin: 1rem;
+#submit {
+
+    width: 95%;
+    height: 2.5rem;
 }
 
-#submit{
-    
-    width: 65%;
-}
-
-li{
+li {
     display: flex;
     flex-direction: column;
     gap: .25rem;
 }
 
+li label {}
+
 li input {
-    width:65%;
+    width: 95%;
+    height: 2.5rem;
 }
