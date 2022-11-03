@@ -35,7 +35,7 @@
 
       000
     </header>
-    <div id="form_wrapper">
+    <div id="form-wrapper">
       <form action="">
         <ul>
           <li>
@@ -51,16 +51,24 @@
             <input type="text" placeholder=" e.g. 1234 5678 9123 0000" name="" id="">
           </li>
           <li>
-            <label for="">
-              Exp. Date (MM/YY)
-              MM
-              YY
-              CVC
-            </label>
-            <input type="date" placeholder="" name="" id="">
-
-            e.g. 123
+            <div id="card-date-label">
+              <label for="">
+                Exp. Date
+              </label>
+              <label for="">
+                (MM/YY)
+              </label>
+              <label for="">
+                CVC
+              </label>
+            </div>
+            <div id="input">
+              <input type="month" name="" id="">
+              <input type="year" placeholder="" name="" id="">
+              <input type="number" placeholder=" e.g. 123" name="" id="">
+            </div>
           </li>
+
           <li>
             <button id="submit" type="submit">
               Confirm
