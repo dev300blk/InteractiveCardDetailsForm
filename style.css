@@ -29,7 +29,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 2.5rem;
    
 }
 
@@ -83,7 +83,7 @@ li input {
     width: 98%;
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
-    column-gap: .7rem;
+    column-gap: .5rem;
 }
 
 #card-date-label{
