@@ -28,7 +28,7 @@ header {
 
 #card-back{
    position: absolute;
-    height: 55%;
+    height: 75%;
     width: 55%;
     margin-left: 35%;
     margin-top: 5%;
@@ -37,9 +37,9 @@ header {
 
 #card-front{
     position: absolute;
-    height: 55%;
+    height: 75%;
     width: 55%;
-   margin-top: 20%;
+   margin-top: 28%;
    margin-left: 10%;
    
     /* z-index: 10; */
@@ -50,7 +50,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2.5rem;
+    /* margin-top: 2.5rem; */
    
 }
 
