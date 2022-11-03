@@ -25,6 +25,13 @@ header {
     width: 100%;
 }
 
+#card-back{
+    height: 55%;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
 #form-wrapper{
     display: flex;
     justify-content: center;
@@ -91,3 +98,14 @@ li input {
    gap: .6rem;
     
 }
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
