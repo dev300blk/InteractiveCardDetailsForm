@@ -17,6 +17,7 @@ main {
 }
 
 header {
+    position: relative;
     background-image: url('images/bg-mob.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,10 +27,21 @@ header {
 }
 
 #card-back{
+   
     height: 55%;
-    width: 60%;
+    width: 55%;
     margin-left: 35%;
     margin-top: 5%;
+    z-index: -5;
+}
+
+#card-front{
+    position: absolute;
+    height: 55%;
+    width: 55%;
+   margin-top: 25%;
+   
+    z-index: 10;
 }
 
 #form-wrapper{
