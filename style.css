@@ -28,7 +28,7 @@ header {
 
 #card-back{
    position: absolute;
-    height: 100%;
+    height: auto;
     width: 70%;
     margin-left: 25%;
     margin-top: 5%;
@@ -37,7 +37,7 @@ header {
 
 #card-front{
     position: absolute;
-    height: 100%;
+    height: auto;
     width: 70%;
    margin-top: 30%;
    margin-left: 10%;
